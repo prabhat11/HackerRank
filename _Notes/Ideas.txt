@@ -1,0 +1,6 @@
+#How find how deadlock occured?
+#findDeadlock thread
+#When StackOverflow occured?
+#When outOfMemory occured?
+#what is scope of @Service annotation
+#what is diffence between illigalArgumentException and numberFormateException
