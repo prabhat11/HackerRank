@@ -30,11 +30,16 @@ public class TreeMapTest {
 		Map<Integer, String> map=new TreeMap<>();
 		map.put(11, "a");
 		map.put(12, null);
-		map.put(13, null);
-		//map.put(null, null);
+		map.put(null, null);
+		map.put(32, null);
 		System.out.println(map.size());
 		System.out.println(map);
 
+		/*Set<String> set1=new TreeSet<>();
+		set1.add(null);
+		//set.add("abc");
+		System.out.println(set1);*/
+		
 
 		
 
