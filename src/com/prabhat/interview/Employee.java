@@ -7,10 +7,16 @@ public class Employee {
 		this.name=name;
 	}
 	
-	@Override
+	/*@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
 		return 1;
+	}*/
+	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return true;
 	}
 	
 

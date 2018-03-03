@@ -27,9 +27,10 @@ public class TreeMapTest {
 		map.put(22, null);
 		
 		System.out.println(map);*/
-		Map<Integer, String> map=new Hashtable<>();
+		Map<Integer, String> map=new TreeMap<>();
 		map.put(11, "a");
-		map.put(null, "c");
+		map.put(12, null);
+		map.put(13, null);
 		//map.put(null, null);
 		System.out.println(map.size());
 		System.out.println(map);

@@ -9,6 +9,8 @@ public class Program4 {
 		hm.put(new Employee("a"), "emp1");
 		hm.put(new Employee("b"), "emp2");
 		hm.put(new Employee("a"), "emp1 overridden");
+		System.out.println(new Employee("a"));
+		System.out.println(new Employee("a"));
 		
 		System.out.println(hm.size());
 		System.out.println(hm.get(new Employee("a")));
