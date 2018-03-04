@@ -1,7 +1,9 @@
 package com.prabhat.interview;
 
-public class Employee {
-	private String name;
+import java.util.Comparator;
+
+public class Employee implements Comparable<Employee>{
+private String name;
 	
 	public Employee(String name) {
 		this.name=name;
@@ -18,6 +20,18 @@ public class Employee {
 		// TODO Auto-generated method stub
 		return true;
 	}
+
+	@Override
+	public int compareTo(Employee o) {
+		// TODO Auto-generated method stub
+		
+		return this.name.compareTo(o.name);
+	}
+	@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return name;
+		}
 	
 
 }

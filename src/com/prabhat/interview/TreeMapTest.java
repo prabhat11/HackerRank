@@ -1,13 +1,10 @@
 package com.prabhat.interview;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.List;
 import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
 
 public class TreeMapTest {
 	public static void main(String[] args) {
@@ -27,13 +24,13 @@ public class TreeMapTest {
 		map.put(22, null);
 		
 		System.out.println(map);*/
-		Map<Integer, String> map=new TreeMap<>();
+		/*Map<Integer, String> map=new TreeMap<>();
 		map.put(11, "a");
 		map.put(12, null);
 		map.put(null, null);
-		map.put(32, null);
-		System.out.println(map.size());
-		System.out.println(map);
+		map.put(32, null);*/
+		//System.out.println(map.size());
+		//System.out.println(map);
 
 		/*Set<String> set1=new TreeSet<>();
 		set1.add(null);
@@ -50,6 +47,34 @@ public class TreeMapTest {
 			i.remove();
 		}*/
 	//	System.out.println(set);
+		/*Map<String, Integer> map1=new HashMap<>();
+		map1.put("a", 12);
+		map1.put("b", 13);
+		map1.put(null, 13);
+		map1.put(null, 14);
+
+		
+		System.out.println(map1);*/
+		
+		Employee emp1=new Employee("Santosh");
+		Employee emp2=new Employee("Prabhat");
+		Employee emp3=new Employee("Manav");
+		
+		List<Employee> list=new ArrayList<>();
+		list.add(emp1);
+		list.add(emp2);
+		list.add(emp3);
+		
+		
+		/* String s1="santosh";
+		String s2="prabhat";
+		String s3="Manav";
+		List<String> list1=new ArrayList<>();*/
+		
+		Collections.sort(list);
+		
+		System.out.println(list);
+		
 	}
 
 }
